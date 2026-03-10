@@ -1,50 +1,141 @@
-# Welcome to your Expo app 👋
+# Catálogo Interativo Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido em **React Native com Expo** que simula um catálogo de produtos de uma loja online.
+O aplicativo consome dados de uma **API REST pública** e apresenta os produtos organizados por categoria, permitindo visualizar detalhes de cada item.
 
-## Get started
+Este projeto foi desenvolvido como parte da disciplina **Mobile Development**, com o objetivo de aplicar conceitos de consumo de APIs, navegação entre telas e organização de projetos mobile.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+# Tecnologias Utilizadas
 
-2. Start the app
+* **React Native**
+* **Expo**
+* **Axios**
+* **Redux Toolkit**
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O aplicativo possui as seguintes funcionalidades:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Tela de Login
 
-## Get a fresh project
+* Simulação de login com validação de campos.
+* Armazenamento temporário dos dados do usuário.
 
-When you're ready, run:
+### Lista de Produtos
+
+* Produtos organizados por categorias:
+
+  * Masculino
+  * Feminino
+* Consumo de dados através da API REST.
+
+### Detalhes do Produto
+
+* Exibição de:
+
+  * Imagem
+  * Nome e descrição
+  * Preço
+
+### Logout
+
+* Botão para sair da aplicação.
+* Limpeza dos dados do usuário e retorno à tela de login.
+
+---
+
+# API Utilizada
+
+Os dados dos produtos são consumidos da seguinte API pública:
+
+https://dummyjson.com/products/category/{categoria}
+
+Exemplo:
+
+https://dummyjson.com/products/category/mens-shirts
+
+Categorias utilizadas:
+
+Masculino
+
+* mens-shirts
+* mens-shoes
+* mens-watches
+
+Feminino
+
+* womens-bags
+* womens-dresses
+* womens-jewellery
+* womens-shoes
+* womens-watches
+
+Documentação da API:
+
+https://dummyjson.com/docs
+
+---
+
+# Como Executar o Projeto
+
+### Clonar o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/Yuri-Melo123/-Mobile-Development.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### Entrar na pasta do projeto
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd Mobile-Development
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+### Instalar as dependências
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+### Executar o projeto
+
+```bash
+npx expo start
+```
+
+---
+
+### Abrir o aplicativo
+
+Você pode rodar o app utilizando:
+
+* **Expo Go (Android / iOS)**
+* **Emulador Android**
+* **Simulador iOS**
+
+---
+
+# Objetivos de Aprendizado
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+* Desenvolvimento mobile com React Native
+* Consumo de APIs REST
+* Navegação entre telas
+* Organização profissional de projetos
+* Gerenciamento de estado com Redux Toolkit
+
+---
+
+# Autor
+
+Projeto desenvolvido por Yuri de Oliveira Melo
