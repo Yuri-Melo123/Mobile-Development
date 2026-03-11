@@ -45,21 +45,34 @@ export default function Home() {
     }
 
     function renderProduto({ item }) {
+
         return (
-        <View style={styles.card}>
-            <Image
-            source={{ uri: item.thumbnail }}
-            style={styles.image}
-            />
 
-            <Text style={styles.title}>
-            {item.title}
-            </Text>
+            <TouchableOpacity
+                style={styles.card}
+                onPress={() =>
+                    router.push({
+                        pathname: "/details",
+                        params: { produto: JSON.stringify(item) }
+                    })
+                }
+            >
 
-            <Text style={styles.price}>
-            ${item.price}
-            </Text>
-        </View>
+                <Image
+                    source={{ uri: item.thumbnail }}
+                    style={styles.image}
+                />
+
+                <Text style={styles.title}>
+                    {item.title}
+                </Text>
+
+                <Text style={styles.price}>
+                    ${item.price}
+                </Text>
+
+            </TouchableOpacity>
+
         );
     }
 
