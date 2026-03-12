@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { useState } from "react";
 import { Alert, Text, TextInput, TouchableOpacity, View } from "react-native";
-import { styles } from "./indexStyles";
+import { styles } from "./styles/indexStyles";
 
 
 export default function Login() {

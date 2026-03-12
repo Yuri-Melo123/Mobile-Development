@@ -9,7 +9,7 @@ import {
     TouchableOpacity,
     View
 } from "react-native";
-import { styles } from "./homeStyles";
+import { styles } from "./styles/homeStyles";
 
 function fazerLogout() {
     router.push("/");
