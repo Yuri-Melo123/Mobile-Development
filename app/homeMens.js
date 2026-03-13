@@ -12,7 +12,7 @@ import {
 import { styles } from "./styles/homeStyles";
 
 function fazerLogout() {
-    router.push("/");
+    router.replace("/");
 }
 
 function masculino() {
@@ -116,7 +116,7 @@ export default function Home() {
             />
 
             <TouchableOpacity onPress={fazerLogout}>
-                <Text style={styles.fazerLogout}>Sair</Text>
+                <Text style={styles.fazerLogout}>Sair da conta</Text>
             </TouchableOpacity>
         </View>
     );
