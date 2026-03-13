@@ -84,7 +84,7 @@ https://dummyjson.com/docs
 ### Clonar o repositório
 
 ```bash
-git clone https://github.com/Yuri-Melo123/-Mobile-Development.git
+git clone https://github.com/Yuri-Melo123/Mobile-Development.git
 ```
 
 ---
