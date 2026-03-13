@@ -12,7 +12,6 @@ Este projeto foi desenvolvido como parte da disciplina **Mobile Development**, c
 * **React Native**
 * **Expo**
 * **Axios**
-* **Redux Toolkit**
 
 ---
 
@@ -121,6 +120,7 @@ Você pode rodar o app utilizando:
 * **Expo Go (Android / iOS)**
 * **Emulador Android**
 * **Simulador iOS**
+* **Navegador (Precionando a tecla "w" no terminal)**
 
 ---
 
@@ -132,10 +132,11 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 * Consumo de APIs REST
 * Navegação entre telas
 * Organização profissional de projetos
-* Gerenciamento de estado com Redux Toolkit
 
 ---
 
-# Autor
+# Link para a explicação no Youtube
 
-Projeto desenvolvido por Yuri de Oliveira Melo
+https://youtu.be/bkvcgsPxMc4
+
+Desenvolvido por Yuri de Oliveira Melo
